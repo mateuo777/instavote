@@ -22,5 +22,6 @@ spec:
       containers:
       - image: schoolofdevops/vote:v1
         name: vote
+        imagePullPolicy: Always
         resources: {}
 
