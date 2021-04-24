@@ -11,7 +11,7 @@ replicas:
 images:
 - name: schoolofdevops/vote
   newName: dopsdemo/vote
-  newTag: main-e8b357e3-1619193658 # {"$imagepolicy": "flux-system:vote:tag"}
+  newTag: main-7c20e93c-1619242117 # {"$imagepolicy": "flux-system:vote:tag"}
 namespace: instavote
 commonLabels:
   project: instavote
