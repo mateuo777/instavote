@@ -4,7 +4,7 @@
 
 replicaCount: 1
 image:
-  repository: dopspdemo/result
+  repository: dopsdemo/result
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "main-e8b357e3-1619185072" # {"$imagepolicy": "flux-system:result:tag"}
